@@ -1,0 +1,180 @@
+body {
+    border-radius: 20px;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    padding-top: 1.5rem;
+}
+
+div#container{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-content:space-around ;
+    min-height: 100vh;
+}
+
+#logo {
+    width: 120px;
+}
+
+div#login{
+    border-radius: 20px;
+    margin-top:50px ;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form#login{
+    margin-top:30px ;
+    display: flex;
+    flex-direction: column;
+}
+
+input#login{
+    color: white;
+    height: 30px;
+    width: 200px;
+    margin: 5px;
+    background-color: rgb(77, 77, 77);
+    border: solid 1px rgb(131, 131, 131);
+    border-radius: 15px;
+    font-size: 0.8rem;
+}
+input#login::placeholder{
+    color: rgb(131, 131, 131); ;
+}
+input#login:focus{
+    color: rgb(131, 131, 131);
+    background-color: rgb(77, 77, 77);
+    outline: solid 1px rgb(131, 131, 131);
+}
+
+button#login{
+    height: 30px;
+    width: 200px;
+    margin:5px;
+    margin-top: 20px;
+    background-color: rgb(46, 84, 211);
+    border: solid 0px rgb(255, 252, 252);
+    border-radius: 15px;
+    font-size: 0.8rem;
+    color: white;
+}
+/*---------------------------------------------------------------------------------*/
+nav#head{
+    background-color: black;
+    overflow: hidden;
+    padding-top: 30px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+div#usrInfo{
+    margin: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input#lookfor{
+    color: white;
+    height: 30px;
+    width: 90vw;
+    margin: 5px 20px;
+    background-color: rgb(77, 77, 77);
+    border: solid 1px rgb(131, 131, 131);
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+input#lookfor::placeholder{
+    color: rgb(131, 131, 131); ;
+}
+input#lookfor:focus{
+    color: rgb(131, 131, 131);
+    background-color: rgb(77, 77, 77);
+    outline: solid 1px rgb(131, 131, 131);
+}
+
+img#profileImg{
+    margin-right: 10px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+div#profileIcon{
+    margin-right: 10px;
+    width:20px;
+    height: 20px; 
+    background-color:  white; 
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/*---*/
+
+div#mainSec{
+    overflow: auto;
+    position: fixed;
+    top:120px;
+    margin-bottom: 50px;
+    width: 90vw;
+    padding:0px 0px 10px 0px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+div.conversation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 10px 20px 10px;
+}
+
+div#convModul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.nombre{
+    color: rgb(255, 255, 255);
+    font-size: medium;
+}
+
+div.msjHora{
+    font-size: small;
+    color: rgb(77,77,77);
+}
+
+/*---*/
+footer#menuBar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    background-color: rgb(20,20,20) ;
+    padding:10px 5px;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+ footer div.menuIcon{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 40px;
+    color: rgb(255, 255, 255);
+ }
+ /*----------------------------------------------------------------------------------------------------------------------*/

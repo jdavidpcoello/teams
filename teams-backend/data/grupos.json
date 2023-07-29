@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "nombreGrupo": "Akatsuki",
+    "miembros": [
+      {
+        "id": 6,
+        "nombre": "Tobi",
+        "imagen": "https://ami.animecharactersdatabase.com/uploads/chars/thumbs/200/12602-635813231.jpg"
+      },
+      {
+        "id": 9,
+        "nombre": "Kisame",
+        "imagen": "https://ami.animecharactersdatabase.com/images/naruto/Kisame_Hoshigaki_thumb.jpg"
+      },
+      {
+        "id": 8,
+        "nombre": "Madara",
+        "imagen": "https://ami.animecharactersdatabase.com/uploads/chars/thumbs/200/67712-852978014.jpg"
+      },
+      {
+        "id": 1,
+        "nombre": "Naruto",
+        "imagen": "https://ami.animecharactersdatabase.com/uploads/chars/thumbs/200/67712-852978014.jpg"
+      }
+    ],
+    "mensajes": [
+      {
+        "emisor": 9,
+        "receptor": null,
+        "mensaje": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "hora": "10:11 PM"
+      },
+      {
+        "emisor": 6,
+        "receptor": null,
+        "mensaje": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "hora": "10:12 PM"
+      },
+      {
+        "emisor": 8,
+        "receptor": null,
+        "mensaje": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "hora": "10:13 PM"
+      },
+      {
+        "emisor": 1,
+        "receptor": null,
+        "mensaje": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "hora": "10:14 PM"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombreGrupo": "Equipo 7",
+    "miembros": [
+      {
+        "id": 2,
+        "nombre": "Sakura",
+        "imagen": null
+      },
+      {
+        "id": 3,
+        "nombre": "Sasuke",
+        "imagen": "https://ami.animecharactersdatabase.com/images/naruto/Sasuke_Uchiha_thumb.jpg"
+      },
+      {
+        "id": 1,
+        "nombre": "Naruto",
+        "imagen": "https://ami.animecharactersdatabase.com/uploads/chars/thumbs/200/5688-1946301974.jpg"
+      }
+    ],
+    "mensajes": [
+      {
+        "emisor": 2,
+        "receptor": null,
+        "mensaje": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "hora": "10:11 PM"
+      },
+      {
+        "emisor": 3,
+        "receptor": null,
+        "mensaje": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "hora": "10:12 PM"
+      },
+      {
+        "emisor": 1,
+        "receptor": null,
+        "mensaje": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "hora": "10:13 PM"
+      },
+      {
+        "emisor": 2,
+        "receptor": null,
+        "mensaje": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "hora": "10:14 PM"
+      }
+    ]
+  }
+]

@@ -1,0 +1,213 @@
+{
+	"info": {
+		"_postman_id": "2b87a32f-2201-4621-bf35-81f369e90912",
+		"name": "Teams REST API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24822985"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"usuario\": \"Naruto\",\n    \"contrasena\": \"asd.456\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/login",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener un usuario",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/usuarios/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"usuarios",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener lista conversaciones",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/usuarios/1/conversaciones",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"usuarios",
+						"1",
+						"conversaciones"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener usuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/usuarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener mensajes de una conversación",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/conversaciones/1/mensajes",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"conversaciones",
+						"1",
+						"mensajes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener mensajes por grupo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/grupos/1/mensajes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"grupos",
+						"1",
+						"mensajes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener miembros de un grupo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/grupos/1/miembros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"grupos",
+						"1",
+						"miembros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Nuevo mensaje para usuario particular",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"idConversacion\": 1,\n    \"emisor\": 1,\n    \"receptor\": 2,\n    \"mensaje\": \"Esta es una prueba\",\n    \"hora\": \"10:11 PM\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/mensajes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"mensajes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Nuevo mensaje para grupo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"idGrupo\": 1,\n    \"emisor\": 1,\n    \"receptor\": null,\n    \"mensaje\": \"Esta es una prueba de mensaje para grupo\",\n    \"hora\": \"10:11 PM\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/mensajes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"mensajes"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

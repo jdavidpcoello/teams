@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "emisor": {
+      "id": 1,
+      "nombre": "Naruto",
+      "imagen": ""
+    },
+    "receptor": {
+      "id": 4,
+      "nombre": "Sakura",
+      "imagen": ""
+    },
+    "ultimoMensaje": "Lorem Ipsum",
+    "fechaConversacionn": "12/12/2021",
+    "mensajes": [
+      {
+        "emisor": 1,
+        "receptor": 2,
+        "mensaje": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "hora": "10:11 PM"
+      },
+      {
+        "emisor": 2,
+        "receptor": 1,
+        "mensaje": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "hora": "10:12 PM"
+      },
+      {
+        "emisor": 1,
+        "receptor": 2,
+        "mensaje": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "hora": "10:13 PM"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "emisor": {
+      "id": 1,
+      "nombre": "Naruto",
+      "imagen": ""
+    },
+    "receptor": {
+      "id": 6,
+      "nombre": "Tobi",
+      "imagen": ""
+    },
+    "ultimoMensaje": "Lorem Ipsum",
+    "fechaConversacionn": "12/12/2021",
+    "mensajes": [
+      {
+        "emisor": 1,
+        "receptor": 6,
+        "mensaje": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "hora": "10:11 PM"
+      },
+      {
+        "emisor": 1,
+        "receptor": 6,
+        "mensaje": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "hora": "10:12 PM"
+      },
+      {
+        "emisor": 6,
+        "receptor": 1,
+        "mensaje": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "hora": "10:13 PM"
+      }
+    ]
+  }
+]

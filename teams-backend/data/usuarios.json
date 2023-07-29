@@ -1,0 +1,115 @@
+[
+  {
+    "id": 1,
+    "nombre": "Naruto",
+    "contrasena": "asd.456",
+    "status": "ausente",
+    "imagen": "https://ami.animecharactersdatabase.com/uploads/chars/thumbs/200/5688-1946301974.jpg",
+    "conversaciones": [
+      {
+        "idConversacion": 1,
+        "idDestinatario": 2,
+        "idGrupo": null,
+        "tipo": "individual",
+        "ultimoMensaje": "Lorem ipsum dolor",
+        "horaUltimoMensaje": "10:11 PM",
+        "nombreDestinatario": "Sakura",
+        "imagenDestinatario": ""
+      },
+      {
+        "idConversacion": 2,
+        "idDestinatario": null,
+        "idGrupo": 1,
+        "tipo": "grupal",
+        "ultimoMensaje": "Lorem ipsum dolor",
+        "horaUltimoMensaje": "10:11 PM",
+        "nombreDestinatario": "Akatsuki",
+        "imagenDestinatario": null
+      },
+      {
+        "idConversacion": 3,
+        "idDestinatario": 6,
+        "idGrupo": null,
+        "tipo": "individual",
+        "ultimoMensaje": "Lorem ipsum dolor",
+        "horaUltimoMensaje": "10:11 PM",
+        "nombreDestinatario": "Tobi",
+        "imagenDestinatario": ""
+      },
+      {
+        "idConversacion": 4,
+        "idDestinatario": null,
+        "idGrupo": 2,
+        "tipo": "grupal",
+        "ultimoMensaje": "Lorem ipsum dolor",
+        "horaUltimoMensaje": "10:11 PM",
+        "nombreDestinatario": "Equipo 7",
+        "imagenDestinatario": null
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Sakura",
+    "contrasena": "asd.456",
+    "status": "ocupado",
+    "imagen": null,
+    "conversaciones": []
+  },
+  {
+    "id": 3,
+    "nombre": "Sasuke",
+    "contrasena": "asd.456",
+    "status": "",
+    "imagen": "https://ami.animecharactersdatabase.com/images/naruto/Sasuke_Uchiha_thumb.jpg",
+    "conversaciones": []
+  },
+  {
+    "id": 4,
+    "nombre": "Tsunade",
+    "contrasena": "asd.456",
+    "status": "disponible",
+    "imagen": null,
+    "conversaciones": []
+  },
+  {
+    "id": 5,
+    "nombre": "Jiraya",
+    "contrasena": "asd.456",
+    "status": "ausente",
+    "imagen": "https://ami.animecharactersdatabase.com/images/naruto/Jiraiya_thumb.jpg",
+    "conversaciones": []
+  },
+  {
+    "id": 6,
+    "nombre": "Tobi",
+    "contrasena": "asd.456",
+    "status": "ocupado",
+    "imagen": "https://ami.animecharactersdatabase.com/uploads/chars/thumbs/200/12602-635813231.jpg",
+    "conversaciones": []
+  },
+  {
+    "id": 7,
+    "nombre": "Orochimaru",
+    "contrasena": "asd.456",
+    "status": "disponible",
+    "imagen": "https://ami.animecharactersdatabase.com/uploads/chars/thumbs/200/5688-101606445.jpg",
+    "conversaciones": []
+  },
+  {
+    "id": 8,
+    "nombre": "Madara",
+    "contrasena": "asd.456",
+    "status": "disponible",
+    "imagen": "https://ami.animecharactersdatabase.com/uploads/chars/thumbs/200/67712-852978014.jpg",
+    "conversaciones": []
+  },
+  {
+    "id": 9,
+    "nombre": "Kisame",
+    "contrasena": "asd.456",
+    "status": "ausente",
+    "imagen": "https://ami.animecharactersdatabase.com/images/naruto/Kisame_Hoshigaki_thumb.jpg",
+    "conversaciones": []
+  }
+]
