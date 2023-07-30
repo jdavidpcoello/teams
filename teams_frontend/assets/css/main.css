@@ -3,7 +3,11 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: black;
-    padding-top: 1.5rem;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    place-content: center;
 }
 
 div#container{
@@ -20,7 +24,6 @@ div#container{
 
 div#login{
     border-radius: 20px;
-    margin-top:50px ;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -44,6 +47,7 @@ input#login{
     border: solid 1px rgb(131, 131, 131);
     border-radius: 15px;
     font-size: 0.8rem;
+    padding-left: 10px;
 }
 input#login::placeholder{
     color: rgb(131, 131, 131); ;
@@ -81,6 +85,32 @@ div#usrInfo{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+nav#msjPageHead{
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+div#msjPageUsrInfo{
+    display: flex;
+    height: 130px;
+    width: 100vw;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div#msjPageUsrInfo #profileIcon{
+    margin-left: 20px;
+    background-color: transparent;
+    font-size: medium;
+
 }
 
 input#lookfor{
@@ -178,3 +208,99 @@ footer#menuBar{
     color: rgb(255, 255, 255);
  }
  /*----------------------------------------------------------------------------------------------------------------------*/
+
+ div#msjMainSec{
+    overflow: auto;
+    position: fixed;
+    top:120px;
+    margin-bottom: 50px;
+    width: 90vw;
+    padding:0px 0px 10px 0px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+ div.msjs{
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0;
+    gap: 5px;
+}
+
+ div#received{
+    min-height: 30px;
+    display: flex;
+    flex-direction: row;
+    width:fit-content;
+    height: auto;
+    align-self: flex-start;
+    align-items: center;
+
+ }
+
+ div.msjs div#received img#profileImg, div.msjs div#sent img#profileImg{
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px;
+ }
+
+ div#sent{
+    min-height: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    width:fit-content;
+    height: auto;
+    align-self:flex-end;
+    align-items: center;
+
+ }
+
+ div#received div.msjContent{
+    max-width: 251px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(63, 63, 63);
+    border-radius: 10px;
+    border:none
+ }
+
+ div#sent div.msjContent{
+    max-width: 251px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(52, 9, 207);
+    border-radius: 10px;
+    border:none
+ }
+
+ footer#msjArea{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    background-color: rgb(20,20,20) ;
+    padding:10px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+footer#msjArea form.msjArea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input.msjBox{
+    height: 30px;
+    width: 90vw;
+    outline: solid 1px white;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    padding-left: 5px;
+}
